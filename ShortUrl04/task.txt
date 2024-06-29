@@ -1,0 +1,12 @@
+Url Shortener
+Design a Url Shortener service that takes in a valid Url and returns a shortened Url , redirectiing the user to the previously Url
+
+aslo , keep track of total visits/clicks on the Url
+ 
+routes
+ 
+POST / Url = generates a new short url and returns the shortened url in the format example.com/random-id
+
+GET / id = redirects the user to the original url
+
+GET / Url / analytics / id = returns the clicks for the provided short id
